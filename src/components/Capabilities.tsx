@@ -22,7 +22,7 @@ export default function Capabilities() {
                         One operating system for Ethereum Classic
                     </h2>
                     <p className="mt-2 max-w-2xl text-neutral-300">
-                        ClassicOS provides a unified operating system for all economic
+                        Classic OS provides a unified operating system for all economic
                         activity on Ethereum Classic, regardless of how users enter the
                         network.
                     </p>

@@ -15,7 +15,7 @@ export default function PowToOutput() {
                     Proof-of-Work → Economic Output
                 </h2>
                 <p className="mt-2 max-w-3xl text-neutral-300">
-                    ClassicOS is designed around a single economic conversion:
+                    Classic OS is designed around a single economic conversion:
                     Proof-of-Work becomes capital, capital forms markets, and markets
                     settle into on-chain positions.
                 </p>

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Classic OS is the operating system for Ethereum Classic, coordinating mining, capital deployment, market formation, settlement, and observability.",
 
-  metadataBase: new URL("https://classicos.org"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://classicos.org"),
 
   icons: {
     icon: "/icon.svg",

@@ -10,7 +10,7 @@ function TopNav() {
                 <a href={LINKS.app} className="flex items-center gap-3">
                     <div className="h-2.5 w-2.5 rounded-full bg-emerald-400/90 shadow-[0_0_18px_rgba(16,185,129,0.55)]" />
                     <span className="text-sm font-semibold tracking-wide text-neutral-100">
-                        ClassicOS
+                        Classic OS
                     </span>
                 </a>
 
@@ -25,7 +25,7 @@ function TopNav() {
                         className="glow-emerald rounded-xl bg-emerald-400/10 px-4 py-2 font-semibold text-emerald-100 hover:bg-emerald-400/14 transition"
                         href={LINKS.app}
                     >
-                        Open ClassicOS
+                        Open Classic OS
                     </a>
                 </nav>
             </div>
@@ -55,7 +55,7 @@ export default function Hero() {
                         transition={{ duration: 0.7, delay: 0.05 }}
                         className="mt-4 text-4xl font-semibold tracking-tight text-neutral-100 md:text-6xl"
                     >
-                        ClassicOS
+                        Classic OS
                     </motion.h1>
 
                     <motion.p
@@ -73,7 +73,7 @@ export default function Hero() {
                         transition={{ duration: 0.7, delay: 0.18 }}
                         className="mt-4 max-w-xl text-neutral-300"
                     >
-                        ClassicOS coordinates mining, capital deployment, market formation,
+                        Classic OS coordinates mining, capital deployment, market formation,
                         and settlement into a single, always-on operating system for
                         Ethereum Classic.
                     </motion.p>
@@ -88,7 +88,7 @@ export default function Hero() {
                             className="glow-emerald inline-flex items-center justify-center rounded-2xl bg-emerald-400/12 px-6 py-3 text-sm font-semibold text-emerald-100 hover:bg-emerald-400/16 transition"
                             href={LINKS.app}
                         >
-                            Open ClassicOS
+                            Open Classic OS
                         </a>
                         <a
                             className="text-sm text-neutral-300 hover:text-white transition"
@@ -148,7 +148,7 @@ export default function Hero() {
 
                         <div className="mt-6 rounded-2xl border border-white/10 bg-neutral-950/30 p-4">
                             <p className="text-xs text-neutral-300">
-                                ClassicOS is the canonical operating system for Ethereum Classic
+                                Classic OS is the canonical operating system for Ethereum Classic
                                 economic activity.
                             </p>
                         </div>

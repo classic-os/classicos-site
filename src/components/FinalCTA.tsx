@@ -9,14 +9,14 @@ export default function FinalCTA() {
                     activity on Ethereum Classic.
                 </p>
                 <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-                    Open ClassicOS
+                    Start Managing Your ETC with Classic OS
                 </h2>
                 <div className="mt-7">
                     <a
                         className="inline-flex items-center justify-center rounded-2xl bg-emerald-400/14 px-7 py-3 text-sm font-semibold text-emerald-100 hover:bg-emerald-400/18 transition"
                         href={LINKS.app}
                     >
-                        Open ClassicOS
+                        Open Classic OS
                     </a>
                 </div>
             </div>
