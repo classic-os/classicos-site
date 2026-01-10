@@ -25,7 +25,7 @@ function TopNav() {
                         className="glow-emerald rounded-xl bg-emerald-400/10 px-4 py-2 font-semibold text-emerald-100 hover:bg-emerald-400/14 transition"
                         href={LINKS.app}
                     >
-                        Open Classic OS
+                        Enter Classic OS
                     </a>
                 </nav>
             </div>
@@ -64,7 +64,7 @@ export default function Hero() {
                         transition={{ duration: 0.7, delay: 0.12 }}
                         className="mt-4 text-lg text-neutral-200 md:text-xl"
                     >
-                        The operating system for Ethereum Classic.
+                        The operating surface for Ethereum Classic.
                     </motion.p>
 
                     <motion.p
@@ -73,9 +73,9 @@ export default function Hero() {
                         transition={{ duration: 0.7, delay: 0.18 }}
                         className="mt-4 max-w-xl text-neutral-300"
                     >
-                        Classic OS coordinates mining, capital deployment, market formation,
-                        and settlement into a single, always-on operating system for
-                        Ethereum Classic.
+                        Select a network, establish an execution context, and operate through
+                        the system modules that matter — production, capital routing, market
+                        formation, and observability — without fragmented tools or vague promises.
                     </motion.p>
 
                     <motion.div
@@ -88,7 +88,7 @@ export default function Hero() {
                             className="glow-emerald inline-flex items-center justify-center rounded-2xl bg-emerald-400/12 px-6 py-3 text-sm font-semibold text-emerald-100 hover:bg-emerald-400/16 transition"
                             href={LINKS.app}
                         >
-                            Open Classic OS
+                            Enter Classic OS
                         </a>
                         <a
                             className="text-sm text-neutral-300 hover:text-white transition"
@@ -99,8 +99,7 @@ export default function Hero() {
                     </motion.div>
 
                     <p className="mt-3 text-xs text-neutral-400">
-                        A production-grade operating system for creating, deploying, and
-                        managing economic activity on Ethereum Classic.
+                        Wallet-attached, network-defined. Ethereum Classic-first.
                     </p>
                 </div>
 
@@ -114,7 +113,7 @@ export default function Hero() {
                     >
                         <div className="flex items-center justify-between">
                             <p className="text-sm font-semibold text-neutral-100">
-                                Operating Modes
+                                System Modules (v0.1)
                             </p>
                             <div className="flex gap-2">
                                 <span className="h-2 w-2 rounded-full bg-white/20" />
@@ -125,9 +124,10 @@ export default function Hero() {
 
                         <div className="mt-6 grid gap-3">
                             {[
-                                { title: "Produce", body: "Mining / hashrate / issuance" },
-                                { title: "Deploy", body: "Capital deployment / liquidity / yield" },
-                                { title: "Settle & Manage", body: "Markets / assets / portfolio" },
+                                { title: "Produce", body: "Production context by network" },
+                                { title: "Deploy", body: "Route ETC into available paths" },
+                                { title: "Markets", body: "Create assets and form markets" },
+                                { title: "Portfolio", body: "Balances, positions, activity" },
                             ].map((m) => (
                                 <div
                                     key={m.title}
@@ -148,8 +148,8 @@ export default function Hero() {
 
                         <div className="mt-6 rounded-2xl border border-white/10 bg-neutral-950/30 p-4">
                             <p className="text-xs text-neutral-300">
-                                Classic OS is the canonical operating system for Ethereum Classic
-                                economic activity.
+                                Classic OS is a workspace for Ethereum Classic execution — network selection,
+                                execution context, and capability surfaces in one system.
                             </p>
                         </div>
                     </motion.div>

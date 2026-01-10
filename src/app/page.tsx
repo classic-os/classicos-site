@@ -1,9 +1,9 @@
 import BackgroundSystem from "@/components/BackgroundSystem";
 import Hero from "@/components/Hero";
-import Capabilities from "@/components/Capabilities";
-import WhyClassicOS from "@/components/WhyClassicOS";
-import PowToOutput from "@/components/PowToOutput";
-import FinalCTA from "@/components/FinalCTA";
+import SystemOverview from "@/components/SystemOverview";
+import SystemModules from "@/components/SystemModules";
+import ProofOfWorkPipeline from "@/components/ProofOfWorkPipeline";
+import LaunchCTA from "@/components/LaunchCTA";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -13,10 +13,10 @@ export default function Home() {
 
       <div className="relative z-10">
         <Hero />
-        <Capabilities />
-        <WhyClassicOS />
-        <PowToOutput />
-        <FinalCTA />
+        <SystemOverview />
+        <SystemModules />
+        <ProofOfWorkPipeline />
+        <LaunchCTA />
         <Footer />
       </div>
     </main>

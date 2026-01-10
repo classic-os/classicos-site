@@ -30,7 +30,7 @@ export default function BackgroundSystem() {
                 <div className="absolute left-[-20%] top-[48%] h-px w-[140%] bg-gradient-to-r from-transparent via-white/14 to-transparent" />
                 <div className="absolute left-[-20%] top-[72%] h-px w-[140%] bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
-                <div className="absolute top-[-20%] left-[22%] h-[140%] w-px bg-gradient-to-btoB from-transparent via-white/14 to-transparent" />
+                <div className="absolute top-[-20%] left-[22%] h-[140%] w-px bg-gradient-to-b from-transparent via-white/14 to-transparent" />
                 <div className="absolute top-[-20%] left-[58%] h-[140%] w-px bg-gradient-to-b from-transparent via-white/10 to-transparent" />
                 <div className="absolute top-[-20%] left-[82%] h-[140%] w-px bg-gradient-to-b from-transparent via-white/12 to-transparent" />
             </div>

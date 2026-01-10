@@ -9,14 +9,14 @@ export default function Footer() {
                     <div>
                         <p className="text-sm font-semibold text-neutral-100">Classic OS</p>
                         <p className="text-xs text-neutral-400">
-                            Economic operating system for Ethereum Classic
+                            Operating surface for Ethereum Classic execution
                         </p>
                     </div>
                 </div>
 
-                <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-neutral-300">
+                <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-neutral-300">
                     <a className="hover:text-white transition" href={LINKS.app}>
-                        App
+                        Enter App
                     </a>
                     <a className="hover:text-white transition" href={LINKS.docs}>
                         Docs
@@ -27,7 +27,14 @@ export default function Footer() {
                     <a className="hover:text-white transition" href={LINKS.etc}>
                         Ethereum Classic
                     </a>
-                </div>
+                </nav>
+            </div>
+
+            <div className="mx-auto max-w-6xl px-5 pb-10">
+                <p className="text-xs text-neutral-500">
+                    Ethereum Classic-first infrastructure — no speculation, no promises. Workspace,
+                    execution context, and system modules.
+                </p>
             </div>
         </footer>
     );

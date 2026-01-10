@@ -8,7 +8,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Classic OS — The Operating System for Ethereum Classic",
   description:
-    "Classic OS is the operating system for Ethereum Classic, coordinating mining, capital deployment, market formation, settlement, and observability.",
+    "Classic OS is the operating surface for Ethereum Classic: a workspace model that standardizes network selection, execution context, and core system modules.",
 
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://classicos.org"),
 
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Classic OS",
     description:
-      "The operating system for Ethereum Classic. Mine ETC, deploy capital, form markets, and settle economic activity on one canonical operating system.",
+      "The operating surface for Ethereum Classic. Select a network, establish execution context, and operate through Produce, Deploy, Markets, and Portfolio.",
     url: "https://classicos.org",
     siteName: "Classic OS",
     type: "website",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Classic OS",
     description:
-      "The operating system for Ethereum Classic. A unified system for mining, capital deployment, market formation, and settlement.",
+      "The operating surface for Ethereum Classic. Workspace selection, execution context, and system modules for economic activity.",
     images: ["/opengraph-image.svg"],
   },
 };

@@ -1,22 +1,28 @@
 import { LINKS } from "@/lib/Links";
 
-export default function FinalCTA() {
+export default function LaunchCTA() {
     return (
         <section className="mx-auto max-w-6xl px-5 py-16 md:py-20">
             <div className="rounded-3xl border border-white/10 bg-neutral-950/40 p-10 text-center glow-emerald">
                 <p className="text-sm text-neutral-300">
-                    The operating system for creating, deploying, and managing economic
-                    activity on Ethereum Classic.
+                    Ethereum Classic-first. Network-defined execution context.
                 </p>
+
                 <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-                    Start Managing Your ETC with Classic OS
+                    Enter the Classic OS workspace
                 </h2>
+
+                <p className="mx-auto mt-3 max-w-2xl text-sm text-neutral-300">
+                    Select a network. Confirm status. Execute through system modules —
+                    Produce, Deploy, Markets, and Portfolio.
+                </p>
+
                 <div className="mt-7">
                     <a
                         className="inline-flex items-center justify-center rounded-2xl bg-emerald-400/14 px-7 py-3 text-sm font-semibold text-emerald-100 hover:bg-emerald-400/18 transition"
                         href={LINKS.app}
                     >
-                        Open Classic OS
+                        Enter Classic OS
                     </a>
                 </div>
             </div>

@@ -2,22 +2,22 @@ const steps = [
     { k: "Energy", v: "Real-world input" },
     { k: "Work", v: "Proof-of-Work computation" },
     { k: "ETC", v: "Deterministic issuance" },
-    { k: "Capital Deployment", v: "On-chain routing paths" },
+    { k: "Routing", v: "Execution paths" },
     { k: "Markets", v: "Liquidity + price discovery" },
-    { k: "Settlement", v: "On-chain positions + finality" },
+    { k: "Portfolio", v: "Positions + observability" },
 ];
 
-export default function PowToOutput() {
+export default function ProofOfWorkPipeline() {
     return (
         <section className="mx-auto max-w-6xl px-5 py-16 md:py-20">
             <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
                 <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">
-                    Proof-of-Work → Economic Output
+                    Proof-of-Work to economic output
                 </h2>
                 <p className="mt-2 max-w-3xl text-neutral-300">
-                    Classic OS is designed around a single economic conversion:
-                    Proof-of-Work becomes capital, capital forms markets, and markets
-                    settle into on-chain positions.
+                    Classic OS is organized around a simple conversion: Proof-of-Work
+                    becomes ETC, ETC becomes deployable capital, capital forms markets,
+                    and outcomes are visible as on-chain positions.
                 </p>
 
                 <div className="mt-8 overflow-x-auto">
@@ -40,8 +40,8 @@ export default function PowToOutput() {
                 </div>
 
                 <p className="mt-6 text-sm text-neutral-300">
-                    An always-on operating system for Ethereum Classic, designed for
-                    durable economic activity.
+                    An Ethereum Classic-first system surface — designed for durable
+                    execution, not hype cycles.
                 </p>
             </div>
         </section>
