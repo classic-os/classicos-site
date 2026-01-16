@@ -393,9 +393,19 @@ Examples:
 
 ### Documentation
 
+**Product-Specific:**
 - **Product context:** [`docs/README.md`](docs/README.md)
-- **Ecosystem context:** [`/docs/ecosystem/phase-0/`](../../../docs/ecosystem/phase-0/)
 - **Polished product vision:** [`/products/classicos-app/docs/product/`](../classicos-app/docs/product/)
+
+**Ecosystem-Wide:**
+- **Phase 0 context:** [`/docs/ecosystem/phase-0/`](../../../docs/ecosystem/phase-0/)
+- **EthereumClassic.com positioning:** [`/docs/ecosystem/positioning-ethereumclassic-com.md`](../../../docs/ecosystem/positioning-ethereumclassic-com.md)
+
+**Related Products:**
+- **Classic OS app:** [`/products/classicos-app/docs/`](../classicos-app/docs/)
+- **EthereumClassic.com:** [`/products/ethereumclassic-com/docs/`](../ethereumclassic-com/docs/)
+
+**Public Docs:**
 - **Classic OS docs:** docs.classicos.org
 
 ### External Resources
@@ -406,15 +416,83 @@ Examples:
 
 ---
 
+## Ecosystem Awareness
+
+### Vertical Integration Context
+
+All products are built by the same architect (Christopher Mercer):
+
+- **EthereumClassic.com** - Consumer gateway (awareness)
+- **ClassicOS Landing** (THIS SITE) - Product marketing (consideration)
+- **Classic OS App** - Complete economic OS (conversion)
+- **ETCswap V2/V3** - DEX protocols
+- **ClassicUSD (USC)** - ETC-native stablecoin
+- **Fukuii** - ETC client
+
+**Benefit:** Deep integration, unified vision, consistent messaging.
+
+### Cross-Product References
+
+When working on this site, be aware of:
+
+**EthereumClassic.com** (ethereumclassic.com)
+- Top-of-funnel awareness site
+- Routes visitors to this landing page
+- Explains "what is Ethereum Classic"
+- Evolving into Bitcoin.com-style platform (v0.2+)
+
+**Classic OS App** (app.classicos.org)
+- The actual product this site markets
+- Four modules: Produce, Portfolio, Deploy, Markets
+- Economic operating system positioning
+- Primary CTA destination
+
+**ETCswap** (etcswap.com)
+- DEX V2/V3/Launchpad
+- Integrated into Classic OS
+- Mentioned in feature descriptions
+
+**ClassicUSD** (USC)
+- ETC-native stablecoin via Brale
+- Integrated into Classic OS Markets module
+- Part of fiat on-ramp pathway
+
+### Funnel Position
+
+```
+EthereumClassic.com
+    ↓ (awareness)
+ClassicOS.org (THIS SITE)
+    ↓ (consideration)
+app.classicos.org
+    ↓ (conversion)
+docs.classicos.org
+    ↓ (onboarding)
+```
+
+**Your role:** Convert awareness into intent. Visitors already know about ETC (from EthereumClassic.com). Now explain what Classic OS is and why they should use it.
+
+### Ecosystem Documentation
+
+**Always read ecosystem context before starting work:**
+
+1. [`/docs/ecosystem/phase-0/README.md`](../../../docs/ecosystem/phase-0/README.md) - Three-product launch strategy
+2. [`/products/classicos-app/docs/product/000-product-model.md`](../classicos-app/docs/product/000-product-model.md) - Polished product vision
+
+**Why:** Ensure consistent messaging across all products.
+
+---
+
 ## Summary
 
 **Remember:**
 1. This is **marketing**, not the app
-2. Use the **polished product messaging** (economic OS, four modules, flywheel)
+2. Use **polished product messaging** (economic OS, four modules, economic flywheel)
 3. Keep it **fast** and **focused**
 4. Every section **routes to the app**
 5. **Validate before committing** - lint and build must pass
-6. Read **ecosystem context first** - understand the bigger picture
-7. Docs link to **docs.classicos.org** (not /docs)
+6. **Read ecosystem docs** - Understand vertical integration strategy
+7. **Cross-product awareness** - Know how all products connect
+8. Docs link to **docs.classicos.org** (not /docs)
 
-You're building the consideration layer in a coordinated product ecosystem. Make Classic OS compelling with the refined messaging that positions it as the complete economic operating system for Ethereum Classic.
+You're building the consideration layer in a coordinated product ecosystem. Visitors come from EthereumClassic.com (awareness) and go to app.classicos.org (conversion). Make Classic OS compelling with refined messaging that positions it as the complete economic operating system for Ethereum Classic.
